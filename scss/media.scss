@@ -1,0 +1,22 @@
+@mixin pc {
+  @media (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media (max-width: 374px) {
+    @content;
+  }
+}
+
+@mixin portrait {
+  @media screen and (orientation: portrait) {
+  }
+}
